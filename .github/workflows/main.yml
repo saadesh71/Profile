@@ -1,0 +1,18 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+    - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: building project
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: test
+      run: echo build succesful
