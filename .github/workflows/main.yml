@@ -29,5 +29,5 @@ jobs:
         key: ${{secrets.DEPLOY_KEY}}
         # ssh remote password
         pass: ${{secrets.DEPLOY_PASS}}
-        first_ssh: echo ls
-       
+    - name: server connection test
+      run: echo ls
