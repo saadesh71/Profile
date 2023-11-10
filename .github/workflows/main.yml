@@ -15,4 +15,19 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: test
-      run: echo build succesful
+      run: echo build successful
+    - name: ssh-scp-ssh-pipelines
+      # You may pin to the exact commit or the version.
+      # uses: cross-the-world/ssh-scp-ssh-pipelines@78e864b4890087a58248ff39320406971ca88b89
+      uses: cross-the-world/ssh-scp-ssh-pipelines@v1.1.4
+      with:
+        # ssh remote host
+        host: 142.93.252.3
+        # ssh remote port
+        # ssh remote user
+        user: aadesh
+        key: ${{secrets.DEPLOY_KEY}}
+        # ssh remote password
+        pass: ${{secrets.DEPLOY_PASS}}
+        first_ssh: echo ls
+       
