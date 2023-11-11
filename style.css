@@ -1,11 +1,11 @@
 :root{
-    --yellow: #9acd32;
+    --yellow: #FCDC00;
     --blue: #007BFF;
 }
 
 html, body {
     scroll-behavior: smooth;
-    background-color: #6b6b6b;
+    background-color: black;
     font-family: "Poppins", Sans-serif;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ body[light-mode=light] .image{
     overflow: hidden;
     white-space: nowrap;
     animation: one 3s steps(800, end);
-    color:  #9acd32;
+    color:  #FCDC00;
 }
 @keyframes one{
     from{width: 0%;}
@@ -70,7 +70,7 @@ body[light-mode=light] .image{
 }
 
 .aadesh:hover{
-    color:  #9acd32;
+    color:  #FCDC00;
     cursor: pointer;
 }
 
@@ -98,16 +98,16 @@ body[light-mode=light] .image{
     font-size: 1.2rem;
     font-weight: 600;
     color: #FFFFFF;
-    border: 3px solid #9acd32 ;
+    border: 3px solid #FCDC00 ;
     padding: 20px 60px;
 }
 
 .latestworks:hover{
     border-color: black;
-    color: #9acd32;
+    color: #FCDC00;
     box-shadow:
-      0 0 0 4px #9acd32,
-      0 0 0 4px #9acd32;
+      0 0 0 4px #FCDC00,
+      0 0 0 4px #FCDC00;
 }
 
 #mid-1
@@ -116,7 +116,7 @@ body[light-mode=light] .image{
 }
 
 .whatido{
-    color:  #9acd32;
+    color:  #FCDC00;
 }
 .mywork{
     background-color: transparent;
@@ -127,7 +127,7 @@ body[light-mode=light] .image{
     flex-wrap: wrap;
     align-content: flex-start;
     margin-top: 100px;
-    color:  #9acd32;
+    color:  #FCDC00;
 }
 
 .techskills{
@@ -141,7 +141,7 @@ body[light-mode=light] .image{
     align-content: flex-start;
     margin-top: 100px;
     margin-bottom: 20px;
-    color:  #9acd32;
+    color:  #FCDC00;
 }
 
 
@@ -151,7 +151,7 @@ body[light-mode=light] .image{
 }
 
 .thisiswhat , .thisiswork{
-    color: #9acd32;
+    color: #FCDC00;
     font-family: "Poppins", Sans-serif;
     font-size: 70px;
     font-weight: 800;
@@ -182,13 +182,13 @@ body[light-mode=light] .image{
     margin: 1.3em 0;
 }
 .stu:hover{
-    color: #9acd32;
+    color: #FCDC00;
 }
 .line{
     color:white;
 }
 .color:hover{
-    color: #9acd32;
+    color: #FCDC00;
 }
 .row{
     justify-content: center;
@@ -268,7 +268,7 @@ a:link{
 }
 
 .connect{
-    color: #9acd32;
+    color: #FCDC00;
     font-family: "Poppins", Sans-serif;
     font-size: 60px;
     font-weight: 800;
