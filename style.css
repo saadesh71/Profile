@@ -1,11 +1,11 @@
 :root{
-    --yellow: #FCDC00;
+    --yellow: #9acd32;
     --blue: #007BFF;
 }
 
 html, body {
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: #6b6b6b;
     font-family: "Poppins", Sans-serif;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ body[light-mode=light] .image{
     overflow: hidden;
     white-space: nowrap;
     animation: one 3s steps(800, end);
-    color:  #FCDC00;
+    color:  #9acd32;
 }
 @keyframes one{
     from{width: 0%;}
@@ -70,7 +70,7 @@ body[light-mode=light] .image{
 }
 
 .aadesh:hover{
-    color:  #FCDC00;
+    color:  #9acd32;
     cursor: pointer;
 }
 
@@ -98,16 +98,16 @@ body[light-mode=light] .image{
     font-size: 1.2rem;
     font-weight: 600;
     color: #FFFFFF;
-    border: 3px solid #FCDC00 ;
+    border: 3px solid #9acd32 ;
     padding: 20px 60px;
 }
 
 .latestworks:hover{
     border-color: black;
-    color: #FCDC00;
+    color: #9acd32;
     box-shadow:
-      0 0 0 4px #FCDC00,
-      0 0 0 4px #FCDC00;
+      0 0 0 4px #9acd32,
+      0 0 0 4px #9acd32;
 }
 
 #mid-1
@@ -116,7 +116,7 @@ body[light-mode=light] .image{
 }
 
 .whatido{
-    color:  #FCDC00;
+    color:  #9acd32;
 }
 .mywork{
     background-color: transparent;
@@ -127,7 +127,7 @@ body[light-mode=light] .image{
     flex-wrap: wrap;
     align-content: flex-start;
     margin-top: 100px;
-    color:  #FCDC00;
+    color:  #9acd32;
 }
 
 .techskills{
@@ -141,7 +141,7 @@ body[light-mode=light] .image{
     align-content: flex-start;
     margin-top: 100px;
     margin-bottom: 20px;
-    color:  #FCDC00;
+    color:  #9acd32;
 }
 
 
@@ -151,7 +151,7 @@ body[light-mode=light] .image{
 }
 
 .thisiswhat , .thisiswork{
-    color: #FCDC00;
+    color: #9acd32;
     font-family: "Poppins", Sans-serif;
     font-size: 70px;
     font-weight: 800;
@@ -182,13 +182,13 @@ body[light-mode=light] .image{
     margin: 1.3em 0;
 }
 .stu:hover{
-    color: #FCDC00;
+    color: #9acd32;
 }
 .line{
     color:white;
 }
 .color:hover{
-    color: #FCDC00;
+    color: #9acd32;
 }
 .row{
     justify-content: center;
@@ -268,7 +268,7 @@ a:link{
 }
 
 .connect{
-    color: #FCDC00;
+    color: #9acd32;
     font-family: "Poppins", Sans-serif;
     font-size: 60px;
     font-weight: 800;
@@ -640,4 +640,3 @@ body[light-mode=light] .scrollbutton{
     visibility: visible;
     scroll-behavior: smooth;
 }
-
