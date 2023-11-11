@@ -21,9 +21,7 @@ jobs:
     - name: create known hosts
       run: echo "${{ secrets.KNOWN_HOSTS}}" > ~/.ssh/known_hosts
     - name: connect to deployer
-      run: ssh -i ~/.ssh/deployer deployer@profile.aadesh.site
-    - name: test connection
-      run: echo ll
+      run: ssh -i ~/.ssh/deployer deployer@mypage.aadesh.site
     
     
       
